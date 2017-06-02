@@ -1,0 +1,21 @@
+.metadata {
+  list-style: none;
+  display: flex;
+
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+
+  }
+
+  &__key {
+    display: flex;
+    margin-right: 3px;
+    font-weight: normal;
+  }
+
+  &__value {
+    font-weight: $font-weight-semibold;
+  }
+}

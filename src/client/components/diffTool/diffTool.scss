@@ -1,0 +1,30 @@
+.diff {
+  padding: 10px;
+  border: solid 1px $border;
+  border-radius: 3px;
+
+  &__action.btn {
+    padding: 2px 5px;
+    margin-top: 7px;
+  }
+
+  &__removed {
+    color: $danger;
+    text-decoration: none;
+    background: lighten($danger, 30);
+    cursor: pointer;
+    cursor: hand;
+
+    &--revert {
+      border-bottom: dashed 2px $ok;
+    }
+  }
+
+  &__added {
+    color: $ok;
+    background: lighten($ok, 60);
+    text-decoration: none;
+    cursor: pointer;
+    cursor: hand;
+  }
+}

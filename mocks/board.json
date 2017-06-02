@@ -1,0 +1,24 @@
+{
+  "columns": [
+    {
+      "id": "OPEN",
+      "transitions": ["OPEN", "DELETED"]
+    },
+    {
+      "id": "REVIEW",
+      "transitions": ["REVIEW", "OPEN", "COMPLETED", "DELETED"]
+    },
+    {
+      "id": "COMPLETED",
+      "transitions": ["COMPLETED", "OPEN", "DELETED", "CLOSED"]
+    },
+    {
+      "id": "CLOSED",
+      "transitions": ["CLOSED", "OPEN", "DELETED"]
+    },
+    {
+      "id": "DELETED",
+      "transitions": ["DELETED", "OPEN"]
+    }
+  ]
+}

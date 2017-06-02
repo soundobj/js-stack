@@ -1,0 +1,71 @@
+.participant {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+  &__poopover.popover {
+      max-width: 320px;
+      width: 320px;
+  }
+
+  &__header {
+    flex-grow: 1;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  }
+
+  &__footer {
+    margin-left: 10px;
+  }
+
+  &__participant {
+
+    &__fullname {
+      display: inline;
+    }
+
+    &__suffix, &__name, &__surname, &__email, &__email-icon {
+      margin-right: 2px;
+    }
+
+    &__suffix {
+      font-style: italic;
+    }
+
+    &__surname, &__name {
+      font-weight: $font-weight-semibold;
+    }
+
+    .glyphicon-envelope:before {
+      position: relative;
+      top: 1px;
+      left: 1px;
+    }
+
+    &__email {
+      font-style: italic;
+      font-family: $font-family;
+      font-size: $font-size;
+      position: relative;
+      // align the text with mail Glyphicon
+      top: -1px;
+      left: -10px;
+    }
+  }
+
+  &__address {
+    &__icon, &__streetName, &__streetAddress, &__country {
+      margin-right: 3px;
+    }
+
+    &__streetName:after, &__streetAddress:after {
+      content: ",";
+    }
+
+    &__countryCode {
+      border: solid 1px $border;
+    }
+  }
+}

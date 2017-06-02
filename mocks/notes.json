@@ -1,0 +1,74 @@
+{
+  "notes": {
+    "_embedded": {
+      "notes": [
+        {
+          "text": "a note",
+          "id": "5783d9c3917a640100f1890e",
+          "author": "David Diego",
+          "lastModified": "2016-02-10T06:52:32Z",
+          "actions": {
+            "primaryActions": [],
+            "secondaryActions": [
+              {
+                "asynchronous": true,
+                "code": "editNote",
+                "expectedArgs": ["text"],
+                "group": "Note",
+                "method": "PUT",
+                "publish": true,
+                "rel": "editNote",
+                "targetObject": "Note"
+              },
+              {
+                "asynchronous": true,
+                "code": "deleteNote",
+                "expectedArgs": ["noteID"],
+                "group": "Note",
+                "method": "DELETE",
+                "publish": true,
+                "rel": "deleteNote",
+                "targetObject": "Note"
+              },
+              {
+                "asynchronous": true,
+                "code": "addNote",
+                "expectedArgs": ["note"],
+                "group": "Note",
+                "method": "POST",
+                "publish": true,
+                "rel": "addNote",
+                "targetObject": "Note"
+              }
+            ]
+          }
+        },
+        {
+          "id": "5862ec89539650010022f295",
+          "text": "Make America Great Again",
+          "author": "Agent Orange",
+          "lastModified": "2017-02-10T06:52:32Z"
+        },
+        {
+          "id": "58659b75cafefd0100d765f2",
+          "text": "Get up, stand up, don't give up the fight",
+          "author": "Bob Marley",
+          "lastModified": "2014-05-10T06:52:32Z"
+        }
+      ]
+    },
+    "_links": {
+      "editNote": {
+        "href": "/editNote/{noteId}",
+        "templated": true
+      },
+      "deleteNote": {
+        "href": "/deleteNote/{noteId}",
+        "templated": true
+      },
+      "addNote": {
+        "href": "/addNote"
+      }
+    }
+  }
+}

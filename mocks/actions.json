@@ -1,0 +1,68 @@
+{
+"editNote":  {
+    "id": "editNote",
+    "rel": "/notes/{id}",
+    "action": "EDIT_NOTE",
+    "method": "PUT",
+    "params": ["id"],
+    "primary": true
+  },
+"deleteNote": {
+    "id": "deleteNote",
+    "rel": "/notes/{id}",
+    "action": "DELETE_NOTE",
+    "method": "DELETE",
+    "params": [],
+    "primary": true
+  },
+"assignNote": {
+    "id": "assignNote",
+    "rel": "/assignNote/{assignToId}",
+    "action": "ASSIGN_NOTE",
+    "method": "POST",
+    "params": ["assignToId"],
+    "primary": true
+  },
+"notes": {
+    "id": "notes",
+    "rel": "/notes?_page=1",
+    "action": "FETCH_NOTES",
+    "method": "GET",
+    "params": [],
+    "primary": true
+  },
+"addNote": {
+    "id": "addNote",
+    "rel": "/notes",
+    "action": "ADD_NOTE",
+    "method": "POST",
+    "params": []
+  },
+"fetchParticipants": {
+    "id": "fetchParticipants",
+    "rel": "/participants",
+    "action": "FETCH_PARTICIPANTS",
+    "method": "GET",
+    "params": []
+  },
+"compareVersion": {
+    "id": "compareVersion",
+    "rel": "/notes/{id}",
+    "action": "COMPARE_VERSION",
+    "method": "PUT",
+    "params": ["id"]
+  },
+"board": {
+    "id": "board",
+    "rel": "/board",
+    "action": "FETCH_BOARD",
+    "method": "GET"
+},
+"moveBoardItem": {
+    "id": "moveBoardItem",
+    "rel": "/board/{lastX}/{lastY}/{nextX}/{nextY}",
+    "action": "MOVE_BOARD_ITEM",
+    "method": "PUT",
+    "params": ["lastX", "lastY", "nextX", "nextY"]
+  }
+}

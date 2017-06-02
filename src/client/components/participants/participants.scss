@@ -1,0 +1,21 @@
+.participants {
+
+  min-height: 200px;
+
+  .participant {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $border;
+  }
+
+  .participant:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .participant:first-of-type {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,45 @@
+/*!
+ * Status css
+ */
+.component__notification__status {
+  background-color: rgba(150, 150, 150, 0.75);
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -75px 0 0 -75px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 2000;
+  line-height: $headings-line-height;
+
+  &.fade {
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0s linear 0.15s,opacity 0.15s linear;
+
+    &.in {
+      visibility:visible;
+      opacity:1;
+      transition-delay:0s;
+    }
+  }
+
+  &__OK {
+    font-size: $fontSize-xlarge;
+  }
+
+  &__content {
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+
+    .icon {
+      margin-top: 10px;
+    }
+  }
+}

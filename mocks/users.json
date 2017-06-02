@@ -1,0 +1,59 @@
+[
+  {
+    "user": "admin@ixxus.com",
+    "participant": {
+      "id": "asdf",
+      "name": "Admin",
+      "surname": "Jackson",
+      "suffix": "Doc",
+      "email": "admin@ixxus.com",
+      "address": {
+        "streetName": "Sesame Admin Street",
+        "streetAddress": "60",
+        "postcode": "34567",
+        "country": "Spain",
+        "countryCode": "es"
+      }
+    },
+    "password": "1",
+    "roles": ["admin", "author", "editor"]
+  },
+  {
+    "user": "author@ixxus.com",
+    "participant": {
+      "id": "qwer",
+      "name": "Author",
+      "surname": "Brooker",
+      "suffix": "Mr",
+      "email": "author@ixxus.com",
+      "address": {
+        "streetName": "Aladin Author Street",
+        "streetAddress": "630",
+        "postcode": "SW1 3DP",
+        "country": "United Kingdom",
+        "countryCode": "gb"
+      }
+    },
+    "password": "1",
+    "roles": ["author"]
+  },
+  {
+    "user": "editor@ixxus.com",
+    "participant": {
+      "id": "zxcv",
+      "name": "Editor",
+      "surname": "Smith",
+      "suffix": "Prof",
+      "email": "editor@ixxus.com",
+      "address": {
+        "streetName": "PallMall Admin Street",
+        "streetAddress": "60",
+        "postcode": "34-NP-67",
+        "country": "Germany",
+        "countryCode": "de"
+      }
+    },
+    "password": "1",
+    "roles": ["editor"]
+  }
+]

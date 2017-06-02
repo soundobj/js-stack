@@ -1,0 +1,30 @@
+/*!
+ * NavBar css
+ * Copyright 2017 Ixxus
+ */
+// Bootstrap navbar overrides
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+}
+
+.navbar-brand {
+  padding: 8px 15px;
+
+  & > img {
+    display: inline;
+    padding-right: 5px;
+  }
+}
+
+// Bootstrap navbar overrides end
+.navbar {
+  margin-bottom: 0;
+
+  &__title {
+    position: relative;
+    bottom: 3px;
+  }
+}

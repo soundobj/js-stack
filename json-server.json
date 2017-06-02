@@ -1,0 +1,7 @@
+{
+  "port": 4000,
+  "delay": 500,
+  "middlewares": [
+    "./mocks/middleware.js"
+  ]
+}

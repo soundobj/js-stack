@@ -1,0 +1,6 @@
+{
+  "en-GB": {
+    "notification.Forbidden": "You don't have permission.",
+    "notification.Not Found": "The resource {url} could not be found"
+  }
+}

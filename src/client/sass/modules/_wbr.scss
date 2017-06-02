@@ -1,0 +1,4 @@
+// IE11 workaround
+wbr:after {
+  content: "\00200B";
+}

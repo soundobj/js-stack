@@ -1,0 +1,14 @@
+{
+  "en-GB": {
+    "note.createdDate": "Created On",
+    "note.by": "By",
+    "note.author": "Author",
+    "note.email": "Email",
+    "note.address": "Address",
+    "note.deleteNote": "Delete Note",
+    "note.editNote": "Edit Note",
+    "note.showVersions": "View Versions",
+    "note.compareVersions": "Compare Versions",
+    "note.assignNote": "Assign Note"
+  }
+}

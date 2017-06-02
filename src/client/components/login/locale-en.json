@@ -1,0 +1,11 @@
+{
+  "en-GB": {
+    "login.title": "Login",
+    "login.username": "Username",
+    "login.username.placeholder": "Enter your mail",
+    "login.password": "Password",
+    "login.password.placeholder": "Enter your Password",
+    "login.error.user.not.found": "User not found",
+    "login.login": "Login"
+  }
+}

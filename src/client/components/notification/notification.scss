@@ -1,0 +1,59 @@
+$notification-height: 186px;
+$top: 31px;
+
+.notificationsTray-enter {
+  transition: top 550ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  top: -$notification-height;
+
+  &.notificationsTray-enter-active {
+    top: $top;
+  }
+}
+
+.notificationsTray-leave {
+  transition: top 550ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  top: $top;
+
+  &.notificationsTray-leave-active {
+    top: -$top;
+  }
+}
+
+.notification {
+  z-index: -1;
+
+  &__close {
+    color: $body-bg;
+    position: relative;
+    left: 96vw;
+    top: 27px;
+    cursor: pointer;
+    cursor: hand;
+  }
+
+  &__container {
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    top: $top;
+  }
+
+  &__message {
+    padding: 10px;
+  }
+
+  &__error {
+      text-transform:capitalize;
+  }
+
+  // Bootstrap override
+  .carousel-caption {
+    position: relative;
+    background-color: $danger;
+    left: inherit;
+  }
+
+  .carousel-control {
+    max-height: 116px;
+  }
+}

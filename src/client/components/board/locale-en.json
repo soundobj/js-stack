@@ -1,0 +1,10 @@
+{
+  "en-GB": {
+    "board.title": "Board",
+    "board.OPEN": "Open",
+    "board.REVIEW": "Review",
+    "board.COMPLETED": "Completed",
+    "board.CLOSED": "Closed",
+    "board.DELETED": "Deleted"
+  }
+}

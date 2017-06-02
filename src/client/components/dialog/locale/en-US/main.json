@@ -1,0 +1,13 @@
+{
+  "messages": {
+    "components": {
+      "dialog": {
+        "options": {
+          "cancel": "Cancel",
+          "confirm": "Confirm",
+          "close": "Close"
+        }
+      }
+    }
+  }
+}
